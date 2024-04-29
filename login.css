@@ -1,0 +1,150 @@
+#login-page{
+    display: flex;
+   margin-left: 20%;
+    margin-top: 5%;
+
+}
+#welcome-back{
+    padding-top: 5%;
+    border: 1px solid;
+    border-radius: 15px;
+    height: 64vh;
+    width: 500px;
+    background-color: rgb(26, 4, 46);
+    color: azure;
+    text-align: center;
+    font-size: x-large;
+    
+
+}
+.login-form{
+   padding-top: 5%;
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: azure;
+    text-align: center;
+    height: 68.5vh;
+    width: 500px;
+}
+.input{
+    width: 180px;
+    height: 40px;
+    text-align: center;
+}
+@media only screen and (min-width: 280px) and (max-width: 460px) { 
+    #login-page{
+        display: grid;
+      
+    
+    }
+    #welcome-back{
+       
+        border: 1px solid;
+        border-radius: 15px;
+        height: 64vh;
+        width: 230px;
+        background-color: rgb(26, 4, 46);
+        color: azure;
+       
+        font-size: small;
+        
+    
+    }
+    .login-form{
+        background-color: azure;
+        height: 71.5vh;
+        width: 230px;
+    }
+    .input{
+        width: 180px;
+        height: 40px;
+        text-align: center;
+    } 
+    .flower{
+        width: 250px;
+    }
+}
+@media only screen and (min-width: 461px) and (max-width: 768px) {
+    #login-page{
+        display: flex;
+       
+    }
+    #welcome-back{
+    
+    
+        height: 64vh;
+        width: 400px;
+        background-color: rgb(26, 4, 46);
+        color: azure;
+      
+        font-size: small;
+        
+    
+    }
+    .login-form{
+        border: 1px solid;
+        border-radius: 15px;
+        background-color: azure;
+      
+        height: 68.5vh;
+        width: 400px;
+    }
+    .input{
+        width: 180px;
+        height: 40px;
+       
+    }   
+ }
+ @media only screen and (min-width: 769px) and (max-width: 820px) {
+    #login-page{
+        display: flex;
+       
+    
+    }
+    #welcome-back{
+        border-radius: 15px;
+        height: 64vh;
+        width: 400px;
+        background-color: rgb(26, 4, 46);
+        color: azure;
+        font-size: small;
+        
+    
+    }
+    .login-form{
+        border-radius: 15px;
+        background-color: azure;
+        height: 68.5vh;
+        width: 400px;
+    }
+    .input{
+        width: 180px;
+        height: 40px;
+    } 
+ }
+ @media only screen and (min-width: 820px) and (max-width: 1280px) {
+    #login-page{
+        display: flex;
+       
+    }
+    #welcome-back{
+    
+        
+        height: 64vh;
+        width: 450px;
+        background-color: rgb(26, 4, 46);
+        color: azure;
+        font-size: small;
+        
+    
+    }
+    .login-form{
+        background-color: azure;
+        height: 77.5vh;
+        width: 450px;
+    }
+    .input{
+        width: 180px;
+        height: 40px;
+    }
+ }

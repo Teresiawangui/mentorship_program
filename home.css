@@ -1,0 +1,213 @@
+
+.navbar{
+    gap:8% ;
+    display: flex;
+    border: solid 1px;
+    background-color: rgb(26, 4, 46);
+    height: 10vh;
+    padding-top: 5%;
+    font-size: x-large;
+    padding-left: 2%;}
+
+#introducing{
+    font-size: xx-large;
+    font-weight: bolder;
+    
+}
+a{
+    color: azure;
+    text-decoration: none;
+}
+.logo{
+    width: 550px;
+}
+
+.heading{
+    text-align: center;
+}
+#mentorship{
+    display: flex;
+}
+#connect{
+    display: flex;
+    gap: 10%;
+   
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.logo2{
+  
+   width: 100px;
+    border: solid 1px;
+    border-radius: 50%;
+   
+} 
+  
+    
+   
+
+
+@media only screen and (min-width: 280px) and (max-width: 460px) {
+   
+    .navbar{
+        gap:2% ;
+        display:flex;
+        background-color: rgb(26, 4, 46);
+        height: 10vh;
+         font-size:x-small;
+        width: 350px;
+        text-align: center;
+    }
+    #introducing{
+        font-size: x-small;
+        
+        
+    }
+    a{
+        color: azure;
+        text-decoration: none;
+    }
+    .logo{
+        width: 150px;
+    }
+    
+    .heading{
+       
+        font-size:x-small;
+    }
+    #mentorship{
+        display: grid;
+        
+    }
+    #connect{
+        display: grid;
+        gap: 2%;
+      
+    }
+    
+}
+@media only screen and (min-width: 461px) and (max-width: 768px) {
+    .navbar{
+        gap:2% ;
+        display: flex;
+        border: solid 1px;
+        background-color: rgb(26, 4, 46);
+        height: 19vh;
+        font-size: small;
+    }
+    
+    #introducing{
+        font-size: large;
+
+        
+    }
+    a{
+        color: azure;
+        text-decoration: none;
+    }
+    .logo{
+        width: 450px;
+    }
+    
+    .heading{
+        text-align: center;
+    }
+    #mentorship{
+        display: grid;
+    }
+    #connect{
+        display: grid;
+     
+       
+       
+    }
+    
+      
+         
+}
+@media only screen and (min-width: 769px) and (max-width: 820px) {
+    .navbar{
+        gap:6% ;
+        display: flex;
+        border: solid 1px;
+        background-color: rgb(26, 4, 46);
+        height: 10vh;
+        
+        font-size: small;
+       }
+    
+    #introducing{
+        font-size:large;
+     
+        
+    }
+    a{
+        color: azure;
+        text-decoration: none;
+    }
+    .logo{
+        width: 550px;
+    }
+
+    #mentorship{
+        display: grid;
+    }
+    #connect{
+        display: grid;
+        gap: 10%;
+       
+    }
+    .logo2{
+      
+       width: 100px;
+        border: solid 1px;
+        border-radius: 50%;
+       
+    }   
+}
+@media only screen and (min-width: 821px) and (max-width: 1280px) {
+    .navbar{
+        gap: 8% ;
+        display: flex;
+        border: solid 1px;
+        background-color: rgb(26, 4, 46);
+        height: 18vh;
+        
+        font-size:small;
+        }
+    
+    #introducing{
+        font-size:large;
+       
+        
+    }
+    a{
+        color: azure;
+        text-decoration: none;
+    }
+    .logo{
+        width: 550px;
+    }
+    
+   
+    #mentorship{
+        display: grid;
+    }
+    #connect{
+        display: grid;
+        gap: 10%;
+       
+        
+    }
+    .logo2{
+      
+       width: 100px;
+        border: solid 1px;
+        border-radius: 50%;
+       
+    } 
+      
+        
+       
+}
+

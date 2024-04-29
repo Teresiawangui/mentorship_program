@@ -1,0 +1,24 @@
+#nyj{
+    font-size: x-large;
+    color:black;
+
+}
+.navbar{
+    gap:8% ;
+    display: flex;
+    border: solid 1px;
+    background-color: rgb(26, 4, 46);
+    height: 10vh;
+    padding-top: 5%;
+    font-size: x-large;
+padding-left: 2%;}
+    a{
+        color: azure;
+        text-decoration: none;}
+        .logo{
+  
+            width: 100px;
+              border: solid 1px;
+              border-radius: 50%;
+             
+         } 
