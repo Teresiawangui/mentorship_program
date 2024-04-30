@@ -1,6 +1,10 @@
 #nyj{
     font-size: x-large;
     color:black;
+    padding-left: 10%;
+   
+  
+   
 
 }
 .navbar{
@@ -15,13 +19,17 @@ padding-left: 2%;}
     a{
         color: azure;
         text-decoration: none;}
-        .logo{
-  
-            width: 100px;
-              border: solid 1px;
-              border-radius: 50%;
-             
-         } 
+        
+         .trevoh{
+            margin-top: 5%;
+            
+            
+           
+
+         }
+         .trevohnoah{
+            display: flex;
+         }
 
 
          @media only screen and (min-width: 280px) and (max-width: 460px) { 
