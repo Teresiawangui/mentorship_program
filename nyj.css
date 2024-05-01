@@ -4,10 +4,11 @@
  }
 
 #nyj{
-    font-size: x-large;
+    font-size: large;
     color:black;
     padding-left: 5%;
     padding-right: 9%;
+    padding-top: 10%;
    
   
    
@@ -16,11 +17,11 @@
 .Trevoh{
 
  
-  margin-top: 7%;
+  margin-top: 8%;
 }
 
 .navbar{
-    gap:8% ;
+    gap:10% ;
     display: flex;
     border: solid 1px;
     background-color: rgb(26, 4, 46);
@@ -33,38 +34,35 @@ padding-left: 2%;}
         text-decoration: none;}
         
          
-
-           
-            
-            
-           
-
-        
-
-
  @media only screen and (min-width: 280px) and (max-width: 460px) { 
-            #nyj{
-                font-size: large;
-                color:black;
-                
+    #trevohnoah{
+        display: grid;
+    
+     }
+    
+    #nyj{
+        font-size: large;
+        color:black;
+       
+       }
+    .Trevoh{
+    width: 200px;
+     height: 200px;
+      margin-top: 8%;
+    }
+    
+    .navbar{
+        gap:4% ;
+        display: flex;
+        border: solid 1px;
+        background-color: rgb(26, 4, 46);
+        height: 10vh;
+        font-size: large;
+  }
+        a{
+            color: azure;
+            text-decoration: none;}}
             
-            }
-            .navbar{
-                gap:4% ;
-                display: flex;
-                border: solid 1px;
-                background-color: rgb(26, 4, 46);
-                height: 14vh;
-                width: 900px;
-                font-size: small;}
-                a{
-                    color: azure;
-                    text-decoration: none;}
-                   
-         } 
-         .trevohnoah{
-            display: grid;
-         }
 
          @media only screen and (min-width: 461px) and (max-width: 768px) { 
             #nyj{
